@@ -2,7 +2,6 @@ from aiogram import Router
 from aiogram.types import Message
 from aiogram.filters import Command
 from aiogram.fsm.context import FSMContext
-from googletrans import Translator
 import requests
 from BotForms import UserProfile
 from config import WEATHER_TOKEN
